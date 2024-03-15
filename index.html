@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Líderes de la URSS</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .banner {
+    position: fixed;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .history {
+    margin: 20px;
+    background-color: rgb(89, 0, 0);
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .card {
+    background-color: #ffdb58;
+    border: 5px solid yellow;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .card-title {
+    color: yellow;
+  }
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body background="fond.jpg">
+
+<div class="bg">
+  <div class="banner">Líderes de la URSS</div>
+  <div class="history">
+    <h2>Historia de la URSS</h2>
+    <p style="color: aliceblue;">L¿Qué fue la URSS?
+      La Unión de Repúblicas Socialistas Soviéticas, conocida como la Unión Soviética o la URSS por sus siglas, fue un Estado federal de régimen marxista-leninista (comunista) que existió entre 1922 y 1991. Fue uno de los dos países más poderosos del mundo durante la llamada Guerra Fría (1947-1991), en la que se enfrentó a Estados Unidos y sus aliados de Europa occidental.
+      ×
+      La Unión Soviética respondía a los ideales de la Revolución de Octubre de 1917, en la que el partido bolchevique conquistó el poder político tras el derrocamiento del régimen zarista de Rusia.
+      
+      Estuvo ubicada en el actual territorio de Rusia y de catorce naciones vecinas que se unieron en una federación socialista. Llegó a estar conformada por las naciones actuales de Rusia, Ucrania, Bielorrusia, Kazajistán, Kirguistán, Moldavia, Turkmenistán, Tayikistán, Georgia, Armenia, Azerbaiyán, Lituania, Letonia, Estonia y Uzbekistán.
+      
+      Otras naciones, cercanas y lejanas, recibieron la influencia de la URSS y fueron dominadas o protegidas por esta, como los países que integraron el bloque comunista en Europa oriental (Polonia, Checoslovaquia, Alemania Oriental, Hungría, Rumania y Bulgaria) o los que adoptaron el sistema económico comunista en otros continentes, como China (con la que se produjo una ruptura en los años cincuenta y sesenta) y Cuba.
+      </p>
+  </div>
+  <!-- Contenido existente aquí -->
+  <div class="container">
+    <div class="card" onclick="window.location='https://youtu.be/mcfn1eJPzEw?si=uJHaqIEk9uGD0XaB';">
+      <h2 class="card-title">Stalin</h2>
+      <img src="stalin.jfif" alt="Stalin">
+      <p>Stalin fue el líder de la URSS desde mediados de los años 1920 hasta su muerte en 1953.</p>
+    </div>
+    <div class="card" onclick="window.location='https://youtu.be/Yhkt11TzENg?si=QioeOu4RsUgRxYVJ';">
+      <h2 class="card-title">Lenin</h2>
+      <img src="lenin.jpg" alt="Lenin">
+      <p>Lenin lideró la Revolución Rusa de 1917 que estableció un gobierno comunista en Rusia.</p>
+    </div>
+  </div>
+  <div id="back-to-top" onclick="window.scrollTo(0, 0);">
+    Volver al inicio
+  </div>
+</div>
+
+</body>
+</html>
